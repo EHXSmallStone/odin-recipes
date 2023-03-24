@@ -1,0 +1,68 @@
+body {
+    padding: 0px 32px 16px 32px;
+    background-color:#014274;
+    color: mediumspringgreen;
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+}
+
+h1,
+h2,
+#home-recipes {
+    font-family: "Times New Roman", serif;
+}
+
+#home-h1 {
+    font-size: 96px;
+    text-decoration: underline;
+}
+
+h1,
+#home-recipes {
+    font-size: 48px;
+}
+
+h1,
+#home-h1,
+#home-recipes {
+    text-align: center;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+#home-recipes {
+    border: 5px double white;
+    margin: 48px 250px;
+    padding: 48px 0;
+}
+#home-recipes a {
+    text-decoration: none;
+    color: mediumspringgreen;
+}
+#home-recipes a:hover {
+    color: white;
+}
+#home-recipes li::marker {
+    content: none;
+}
+
+.recipe-photo {
+    width: auto;
+    height: 450px;
+    border-width: 5px;
+    border-style: solid dashed;
+    border-color: white;
+    border-radius: 250px;
+    display: block;
+    margin: 0px auto 50px auto;
+}
+
+a {
+    color:white;
+    font-weight: bold;
+}
+a:active {
+    color: mediumspringgreen;
+}
